@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./test-results/results.xml"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "chai": "^5.1.2",
-    "mocha": "^11.0.1"
+    "mocha": "^11.0.1",
+    "mocha-junit-reporter": "^2.2.1"
   }
 }
