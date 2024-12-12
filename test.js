@@ -1,8 +1,8 @@
-// test.js
-const assert = require('assert');
+const chai = require('chai');
+const expect = chai.expect;
 
-describe('Simple Test', function() {
-    it('should return true', function() {
-        assert.strictEqual(true, true);
+describe('Basic Test Suite', () => {
+    it('should return true for a truthy test', () => {
+        expect(true).to.be.true;
     });
 });
