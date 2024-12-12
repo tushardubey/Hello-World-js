@@ -1,8 +1,8 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-describe('Basic Test Suite', () => {
-    it('should return true for a truthy test', () => {
-        expect(true).to.be.true;
+describe('Sample Test', () => {
+    it('should pass this test', () => {
+        expect(2 + 2).to.equal(4);
     });
 });
