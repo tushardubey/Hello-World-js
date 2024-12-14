@@ -1,8 +1,7 @@
-import chai from 'chai';
-const expect = chai.expect;
+import { expect } from 'chai';
 
-describe('Sample Test', function () {
-    it('should pass', function () {
-        expect(true).to.be.true;
-    });
+describe('My test suite', () => {
+  it('should pass', () => {
+    expect(true).to.be.true;
+  });
 });
