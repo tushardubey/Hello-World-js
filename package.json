@@ -2,11 +2,11 @@
   "name": "nodejs-ci-cd",
   "version": "1.0.0",
   "description": "A Node.js CI/CD test application",
-  "type": "module", // Enables ES modules
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./test-results/results.xml",
-    "start": "node index.js" // Added a script to start the app
+    "start": "node index.js"
   },
   "keywords": ["ci", "cd", "nodejs", "mocha", "testing"],
   "author": "Tushar",
@@ -20,7 +20,8 @@
     "mocha-junit-reporter": "^2.2.1"
   },
   "engines": {
-    "node": ">=18.18.0", // Ensure a compatible Node.js version
+    "node": ">=18.18.0",
     "npm": ">=8.19.0"
   }
 }
+
